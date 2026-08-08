@@ -1,0 +1,8 @@
+ANDROID - CHECKLIST
+
+1. Installer les composants Android depuis Godot > Editor > Manage Export Templates / Android setup selon votre version.
+2. Project > Export > Add... > Android.
+3. Choisir un nom de package unique, par exemple com.votrestudio.minigames.
+4. Pour Google Play, configurer une clé de signature et exporter en .aab.
+5. Tester d'abord sur un téléphone réel.
+6. Garder les jeux et ressources dans res:// : ils seront embarqués dans l'application.
